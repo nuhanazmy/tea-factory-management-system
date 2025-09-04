@@ -1,0 +1,59 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #2f4f2f; /* Dark olive green */
+  margin-bottom: 10px;
+}
+
+.admin-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #5a6b5e;
+  margin-bottom: 30px;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.admin-card {
+  background-color: #ecfdf5; /* light green */
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #d1fae5;
+}
+
+.admin-card:hover {
+  background-color: #d1fae5;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-card h3 {
+  margin: 10px 0 6px;
+  font-size: 1.2rem;
+  color: #065f46;
+}
+
+.admin-card p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.admin-icon {
+  color: #15803d; /* Green */
+  margin-bottom: 8px;
+}

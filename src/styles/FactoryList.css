@@ -1,0 +1,55 @@
+.factory-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 24px;
+  background: #fff7ed;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.factory-title {
+  font-size: 1.8rem;
+  color: #9a3412;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.factory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.factory-card {
+  background: #ffedd5;
+  border: 1px solid #fdba74;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.factory-card h3 {
+  margin-bottom: 10px;
+  color: #7c2d12;
+}
+
+.factory-card p {
+  margin: 4px 0;
+  color: #78350f;
+}
+
+.btn-primary {
+  margin-top: 12px;
+  background-color: #c2410c;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #7c2d12;
+}

@@ -1,0 +1,87 @@
+.dealer-dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dealer-dashboard-container{
+  background-color: rgba(255, 255, 255, 0.92);
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #2e3d25;
+  }
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.btn-primary,
+.btn-outline {
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primary {
+  background-color: #2f855a; /* Rich tea green */
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #276749; /* Darker green for hover */
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #2f855a; /* Matches primary */
+  color: #2f855a;
+}
+
+.btn-outline:hover {
+  background-color: #f0fff4; /* Light green background */
+}
+
+
+.btn-outline:hover {
+  background-color: #e0f2fe;
+}
+
+.recent-orders h3 {
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.recent-orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-orders th,
+.recent-orders td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+.recent-orders th {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}

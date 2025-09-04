@@ -1,0 +1,74 @@
+.tea-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #f0fdf4;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tea-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #065f46;
+  margin-bottom: 20px;
+}
+
+.tea-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.tea-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #a7f3d0;
+  border-radius: 6px;
+}
+
+.tea-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tea-card {
+  background: #d1fae5;
+  padding: 12px 16px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-outline {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background-color: #065f46;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #064e3b;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #065f46;
+  color: #065f46;
+}
+
+.btn-outline:hover {
+  background-color: #bbf7d0;
+}

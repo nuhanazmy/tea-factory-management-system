@@ -1,0 +1,72 @@
+.admin-order-report-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", sans-serif;
+  color: #2e3d25;
+}
+
+.admin-report-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 24px;
+}
+
+.report-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.btn-primary,
+.btn-outline {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #1e40af;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1e3a8a;
+}
+
+.btn-outline {
+  border: 2px solid #1e40af;
+  background-color: transparent;
+  color: #1e40af;
+}
+
+.btn-outline:hover {
+  background-color: #e0f2fe;
+}
+
+.order-report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.order-report-table th,
+.order-report-table td {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  text-align: center;
+}
+
+.order-report-table th {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}

@@ -1,0 +1,61 @@
+.browse-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8fff5;
+  font-family: "Segoe UI", sans-serif
+}
+
+.browse-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #065f46;
+  margin-bottom: 20px
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7f3d0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 1rem
+}
+
+.tea-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px
+}
+
+.tea-card {
+  background: #d1fae5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+.tea-card span {
+  font-weight: 700;
+  color: #064e3b;
+  font-size: 1.1rem
+}
+
+.btn-primary {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #065f46;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s
+}
+
+.btn-primary:hover {
+  background: #064e3b
+}

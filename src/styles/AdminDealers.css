@@ -1,0 +1,81 @@
+.dealers-container {
+   background: #f1f5f9;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dealers-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0c4a6e;
+  margin-bottom: 20px;
+}
+
+.dealers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dealers-table th,
+.dealers-table td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+.dealers-table th {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.status.active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.inactive {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.btn-status,
+.btn-delete {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-status {
+  background: #0369a1;
+  color: white;
+}
+
+.btn-status:hover {
+  background: #03506a;
+}
+
+.btn-delete {
+  background: #dc2626;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #b91c1c;
+}
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
